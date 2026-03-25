@@ -1,0 +1,6 @@
+export { AboutSection } from './AboutSection.tsx'
+export { ContactSection } from './ContactSection.tsx'
+export { ExperienceSection } from './ExperienceSection.tsx'
+export { HeroSection } from './HeroSection.tsx'
+export { ProjectsSection } from './ProjectsSection.tsx'
+export { SkillsCloudSection } from './SkillsCloudSection.tsx'

@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020705"/>
+      <stop offset="1" stop-color="#07160F"/>
+    </linearGradient>
+    <linearGradient id="g" x1="360" y1="440" x2="610" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#86EFAC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="80" r="180" fill="#10B981" fill-opacity="0.12"/>
+  <circle cx="200" cy="560" r="210" fill="#34D399" fill-opacity="0.10"/>
+  <rect x="120" y="95" width="960" height="440" rx="24" fill="#081410" stroke="#14532D"/>
+  <path d="M500 170L375 440H428L452 392H548L572 440H625L500 170ZM475 340L500 286L525 340H475Z" fill="url(#g)"/>
+  <text x="670" y="255" fill="#A7F3D0" font-family="Manrope, Arial, sans-serif" font-size="28" letter-spacing="2">CYBERSECURITY-FOCUSED SOFTWARE ENGINEER</text>
+  <text x="670" y="315" fill="#D4D4D8" font-family="Manrope, Arial, sans-serif" font-size="22">Secure Systems • Detection-Minded Engineering • Privacy Tooling</text>
+  <text x="670" y="365" fill="#71717A" font-family="Manrope, Arial, sans-serif" font-size="16">Portfolio Brand</text>
+</svg>

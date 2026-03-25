@@ -1,0 +1,46 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="896" x2="864" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071711"/>
+      <stop offset="1" stop-color="#031B16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="280" y1="720" x2="768" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16C784"/>
+      <stop offset="1" stop-color="#7CF7C5"/>
+    </linearGradient>
+    <linearGradient id="streak" x1="260" y1="470" x2="720" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B7FFD8"/>
+      <stop offset="0.55" stop-color="#4BFFB3"/>
+      <stop offset="1" stop-color="#16C784"/>
+    </linearGradient>
+    <filter id="glow" x="140" y="140" width="744" height="744" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="180" fill="url(#bg)"/>
+
+  <!-- Left leg -->
+  <path d="M314 764L450 208H566L430 764H314Z" fill="url(#accent)"/>
+
+  <!-- Right leg -->
+  <path d="M594 208H710L846 764H730L594 208Z" fill="url(#accent)"/>
+
+  <!-- Crossbar -->
+  <path d="M378 548H646L608 674H340L378 548Z" fill="url(#accent)"/>
+
+  <!-- Inner cut -->
+  <path d="M510 362L446 548H574L510 362Z" fill="url(#bg)"/>
+
+  <!-- Accent streak -->
+  <g filter="url(#glow)">
+    <path d="M260 430C329 403 406 386 496 377C586 368 665 380 736 421L703 510C641 478 572 464 496 470C420 476 351 500 291 543L260 430Z" fill="url(#streak)" fill-opacity="0.96"/>
+    <circle cx="238" cy="449" r="20" fill="#B7FFD8"/>
+    <circle cx="198" cy="462" r="11" fill="#86FFC7"/>
+    <circle cx="163" cy="475" r="7" fill="#5AF5B2"/>
+  </g>
+</svg>
