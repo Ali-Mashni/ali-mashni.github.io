@@ -120,7 +120,6 @@ export const portfolioData: PortfolioData = {
         ],
         links: [
           { label: 'GitHub', url: 'https://github.com/Ali-Mashni/PrivPrompt' },
-          { label: 'Demo', url: '#' },
         ],
         image: privpromptImage,
         imageAlt: 'PrivPrompt dashboard and extension workflow',
