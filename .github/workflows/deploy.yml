@@ -33,7 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to gh-pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
